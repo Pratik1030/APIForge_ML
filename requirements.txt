@@ -6,3 +6,4 @@ joblib
 pandas
 numpy
 scikit-learn
+aiokafka "sqlalchemy[asyncio]" asyncpg pydantic
